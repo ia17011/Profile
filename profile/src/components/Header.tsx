@@ -27,7 +27,12 @@ export const Header: React.FC<Props> = ({
       <meta property="og:site_name" content={title} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@tcr_jp" />
-      <meta name="twitter:url" content={image} />
+      <meta
+        name="twitter:url"
+        content={
+          'https://og-image.now.sh/kirohi.now.sh.png?theme=light&md=1&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg&images=https%3A%2F%2Fuser-images.githubusercontent.com%2F38400669%2F80910334-c6866380-8d69-11ea-99ea-4d4fd9e6e97d.png'
+        }
+      />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
