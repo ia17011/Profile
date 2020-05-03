@@ -8,9 +8,17 @@ import {Container} from '../components/Container'
 import {Main} from '../components/Main'
 import {DarkModeSwitch} from '../components/DarkModeSwitch'
 import {Footer} from '../components/Footer'
+import {Header} from '../components/Header'
 
 const Index = () => (
   <Container>
+    <Header
+      title={'ia17011/Profile'}
+      description={'Profile'}
+      keyword={'Profile'}
+      image={'/eyecatch.png'}
+      url={'https://kirohi.now.sh'}
+    />
     <Hero />
     <Main>
       <Text>Hello. I'm kirohi who interest in Web dev.</Text>
