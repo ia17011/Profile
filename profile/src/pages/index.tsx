@@ -1,14 +1,6 @@
 import React from 'react'
 import {withTheme} from 'emotion-theming'
-import {
-  Link as ChakraLink,
-  Text,
-  Code,
-  Icon,
-  List,
-  ListIcon,
-  ListItem,
-} from '@chakra-ui/core'
+import {Link as ChakraLink, Text, Icon, List, ListItem} from '@chakra-ui/core'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 import {Hero} from '../components/Hero'
