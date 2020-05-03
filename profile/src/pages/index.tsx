@@ -21,7 +21,7 @@ const Index = () => (
     />
     <Hero />
     <Main>
-      <Text>Hello. I'm kirohi who interest in Web dev.</Text>
+      <Text>Hello. I'm kirohi who is interested in Web dev.</Text>
 
       <List spacing={3} my={0}>
         <ListItem>

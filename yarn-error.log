@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/kirohi/.nodebrew/node/v12.4.0/bin/node /Users/kirohi/.nodebrew/current/bin/yarn add @types/FontAwesomeIcon
+
+PATH: 
+  /Users/kirohi/.gvm/pkgsets/go1.14/global/bin:/Users/kirohi/.gvm/gos/go1.14/bin:/Users/kirohi/.gvm/pkgsets/go1.14/global/overlay/bin:/Users/kirohi/.gvm/bin:/Users/kirohi/.gvm/bin:/usr/local/opt/mysql@8.0.19/bin:/Users/kirohi/.nodebrew/current/bin:/Users/kirohi/.rbenv/shims:/Users/kirohi/.rbenv/bin:/Users/kirohi/.rbenv/shims:/Users/kirohi/.pyenv/shims:/Users/kirohi/.pyenv/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/kirohi/.gvm/pkgsets/go1.14/global/bin:/Users/kirohi/.gvm/gos/go1.14/bin:/Users/kirohi/.gvm/pkgsets/go1.14/global/overlay/bin:/Users/kirohi/.gvm/bin:/usr/local/opt/mysql@8.0.19/bin:/Users/kirohi/.nodebrew/current/bin:/Users/kirohi/.rbenv/shims:/Users/kirohi/.rbenv/bin:/Users/kirohi/.pyenv/shims:/Users/kirohi/.pyenv/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fFontAwesomeIcon: Not found
+      at Request.params.callback [as _callback] (/Users/kirohi/.nodebrew/node/v12.4.0/lib/node_modules/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/Users/kirohi/.nodebrew/node/v12.4.0/lib/node_modules/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:200:13)
+      at Request.<anonymous> (/Users/kirohi/.nodebrew/node/v12.4.0/lib/node_modules/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:200:13)
+      at IncomingMessage.<anonymous> (/Users/kirohi/.nodebrew/node/v12.4.0/lib/node_modules/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:288:20)
+      at IncomingMessage.emit (events.js:205:15)
+      at endReadableNT (_stream_readable.js:1154:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:9)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
